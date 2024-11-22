@@ -39,8 +39,8 @@ body.dark-mode {
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 body {
@@ -471,7 +471,8 @@ body {
 /* Hover Effects */
 .btn:hover, .btn1:hover {
     transform: scale(1.05);
-    border: 2px solid #fff;
+    border: 2px solid var(--text-color);
+};
 }
 
 .btn:hover {
