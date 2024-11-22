@@ -21,13 +21,18 @@ document.addEventListener("DOMContentLoaded", () => {
       `,
       socials: `
     Connect with me:
-      GitHub: https://github.com/garvit
-      LinkedIn: https://linkedin.com/in/garvit
+      GitHub: https://github.com/cybobug
+      LinkedIn: https://www.linkedin.com/in/garvit-haswani-6850ba29b/
+      Twitter: https://x.com/GarvitHaswani
+      Medium: https://medium.com/@garvithaswani28
       `,
       projects: `
     My projects:
       1. Portfolio Website - A showcase of my work
-      2. Task Manager App - A web app to manage tasks efficiently
+      2. Password Manager - A command line password manager that generates and store strong passwords.
+      3. Rubber Ducky Payloads - It automates the process using Raspberry Pi Pico in windows 11.
+      4. Port Scanner - A command line scanner that scans user specified network ports.
+      5. Classical Command Line Games - Games such as treassure Island, Rock paper scissor, and Hangman.
       `,
       themes: `
     Available themes:
@@ -72,7 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Handle "gui" command
         if (value === "gui") {
           typeEffect(commands.gui, () => {
-            window.location.href = "https://your-website.com"; // Replace with your website URL
+            window.location.href = "https://cybobug.github.io/Portfolio/"; // Replace with your website URL
           });
         }
   
