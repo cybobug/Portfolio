@@ -203,7 +203,11 @@ body {
     font-size: 1.4rem;
     margin: 15px;
   }
-  
+
+  .project .read-more{
+    margin-left: 85%;
+    font-size: 2.5rem;
+  }
   .tags {
     display: flex;
     flex-wrap: wrap;
