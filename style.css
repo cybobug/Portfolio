@@ -679,7 +679,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .skill-items {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); 
     gap: var(--space-2);
     margin-top: var(--space-3);
 }
@@ -1710,3 +1710,4 @@ h1, h2, h3, h4, h5, h6 {
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     }
 }
+
